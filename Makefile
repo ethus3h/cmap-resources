@@ -8,6 +8,7 @@
 #
 
 SHELL        = /bin/bash
+DESTDIR      = /
 
 AUTHOR       = adobe
 PACKAGE      = cmap-resources
