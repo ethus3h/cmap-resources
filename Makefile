@@ -21,10 +21,10 @@ ARCHIVE_NAME = $(NAME)
 
 GIT_ARCHIVE_TYPE = tar.gz
 
-prefix       = /usr/local
-datarootdir  = $(prefix)/share
-datadir      = $(datarootdir)
-packagedir   = $(datadir)/$(AUTHOR)/resources/mapping
+prefix       ?= /usr/local
+datarootdir  =  $(prefix)/share
+datadir      =  $(datarootdir)
+packagedir   =  $(datadir)/$(AUTHOR)/resources/mapping
 
 # Source & destination folders:
 CMap_CNS1_source = Adobe-CNS1-7
